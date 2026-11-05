@@ -4,7 +4,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "copy:mediapipe": "node scripts/copy-mediapipe.mjs",
+    "predev": "npm run copy:mediapipe",
     "dev": "vite",
+    "prebuild": "npm run copy:mediapipe",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "test": "vitest run",
@@ -14,5 +17,8 @@
     "typescript": "^7.0.2",
     "vite": "^8.3.5",
     "vitest": "^5.1.0"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.2.2"
   }
 }

@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "note": "충돌 형상은 스프라이트(여백 제거된 WebP) 좌표계 px. hitScale/HIT_SHRINK로 플레이 테스트 조정",
+  "assets": {
+    "fruit_blueberry": {
+      "sprite": "fruits/fruit_blueberry_front.webp",
+      "size": [
+        397,
+        332
+      ],
+      "trimmedFromFrame": [
+        700,
+        719,
+        1097,
+        1051
+      ],
+      "centroid": [
+        195.4,
+        183.9
+      ],
+      "silhouetteAreaPx": 81070,
+      "circles": [
+        {
+          "x": 196.0,
+          "y": 171.2,
+          "r": 141.1
+        },
+        {
+          "x": 104.2,
+          "y": 213.4,
+          "r": 112.4
+        },
+        {
+          "x": 295.3,
+          "y": 220.8,
+          "r": 98.0
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.85,
+      "coverage": 0.961,
+      "overshoot": 0.119,
+      "pxPerMeter": 1547.34
+    },
+    "fruit_kiwi": {
+      "sprite": "fruits/fruit_kiwi_front.webp",
+      "size": [
+        410,
+        351
+      ],
+      "trimmedFromFrame": [
+        695,
+        705,
+        1105,
+        1056
+      ],
+      "centroid": [
+        203.7,
+        173.9
+      ],
+      "silhouetteAreaPx": 107531,
+      "circles": [
+        {
+          "x": 202.4,
+          "y": 174.2,
+          "r": 190.2
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.85,
+      "coverage": 0.971,
+      "overshoot": 0.053,
+      "pxPerMeter": 1547.34
+    },
+    "fruit_orange": {
+      "sprite": "fruits/fruit_orange_front.webp",
+      "size": [
+        305,
+        280
+      ],
+      "trimmedFromFrame": [
+        747,
+        751,
+        1052,
+        1031
+      ],
+      "centroid": [
+        152.1,
+        142.4
+      ],
+      "silhouetteAreaPx": 60560,
+      "circles": [
+        {
+          "x": 152.5,
+          "y": 143.0,
+          "r": 141.5
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.85,
+      "coverage": 0.976,
+      "overshoot": 0.053,
+      "pxPerMeter": 1547.34
+    },
+    "fruit_strawberry": {
+      "sprite": "fruits/fruit_strawberry_front.webp",
+      "size": [
+        261,
+        366
+      ],
+      "trimmedFromFrame": [
+        768,
+        696,
+        1029,
+        1062
+      ],
+      "centroid": [
+        129.0,
+        181.6
+      ],
+      "silhouetteAreaPx": 60018,
+      "circles": [
+        {
+          "x": 128.1,
+          "y": 176.1,
+          "r": 143.3
+        },
+        {
+          "x": 125.8,
+          "y": 285.9,
+          "r": 77.1
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.85,
+      "coverage": 0.987,
+      "overshoot": 0.125,
+      "pxPerMeter": 1547.34
+    },
+    "trash_can": {
+      "sprite": "trash/trash_can_front.webp",
+      "size": [
+        274,
+        357
+      ],
+      "trimmedFromFrame": [
+        765,
+        705,
+        1039,
+        1062
+      ],
+      "centroid": [
+        135.9,
+        178.0
+      ],
+      "silhouetteAreaPx": 59691,
+      "circles": [
+        {
+          "x": 133.9,
+          "y": 180.7,
+          "r": 114.0
+        },
+        {
+          "x": 160.6,
+          "y": 109.3,
+          "r": 114.0
+        },
+        {
+          "x": 111.6,
+          "y": 245.4,
+          "r": 114.0
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.85,
+      "coverage": 1.0,
+      "overshoot": 0.18,
+      "pxPerMeter": 1547.34
+    },
+    "trash_fishbone": {
+      "sprite": "trash/trash_fishbone_front.webp",
+      "size": [
+        651,
+        237
+      ],
+      "trimmedFromFrame": [
+        576,
+        763,
+        1227,
+        1000
+      ],
+      "centroid": [
+        309.6,
+        116.8
+      ],
+      "silhouetteAreaPx": 40956,
+      "circles": [
+        {
+          "x": 105.8,
+          "y": 113.9,
+          "r": 90.1
+        },
+        {
+          "x": 606.2,
+          "y": 118.0,
+          "r": 43.1
+        },
+        {
+          "x": 260.4,
+          "y": 118.0,
+          "r": 43.1
+        },
+        {
+          "x": 349.9,
+          "y": 113.9,
+          "r": 43.1
+        },
+        {
+          "x": 439.4,
+          "y": 113.9,
+          "r": 43.1
+        },
+        {
+          "x": 227.8,
+          "y": 138.3,
+          "r": 43.1
+        },
+        {
+          "x": 500.5,
+          "y": 118.0,
+          "r": 19.5
+        },
+        {
+          "x": 276.7,
+          "y": 93.6,
+          "r": 43.1
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.5,
+      "coverage": 0.739,
+      "overshoot": 0.449,
+      "pxPerMeter": 1547.34
+    },
+    "trash_newspaper": {
+      "sprite": "trash/trash_newspaper_front.webp",
+      "size": [
+        481,
+        329
+      ],
+      "trimmedFromFrame": [
+        660,
+        714,
+        1141,
+        1043
+      ],
+      "centroid": [
+        238.3,
+        160.0
+      ],
+      "silhouetteAreaPx": 140795,
+      "circles": [
+        {
+          "x": 279.6,
+          "y": 162.3,
+          "r": 188.3
+        },
+        {
+          "x": 123.3,
+          "y": 162.3,
+          "r": 170.9
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.85,
+      "coverage": 0.941,
+      "overshoot": 0.066,
+      "pxPerMeter": 1547.34
+    },
+    "trash_sock": {
+      "sprite": "trash/trash_sock_front.webp",
+      "size": [
+        379,
+        442
+      ],
+      "trimmedFromFrame": [
+        705,
+        655,
+        1084,
+        1097
+      ],
+      "centroid": [
+        138.1,
+        267.1
+      ],
+      "silhouetteAreaPx": 57350,
+      "circles": [
+        {
+          "x": 157.5,
+          "y": 334.3,
+          "r": 125.1
+        },
+        {
+          "x": 77.4,
+          "y": 99.5,
+          "r": 93.2
+        },
+        {
+          "x": 309.4,
+          "y": 403.3,
+          "r": 61.2
+        }
+      ],
+      "hitScale": 1.0,
+      "minInside": 0.6,
+      "coverage": 0.933,
+      "overshoot": 0.356,
+      "pxPerMeter": 1547.34
+    }
+  }
+}

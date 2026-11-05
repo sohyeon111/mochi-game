@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "pxPerMeterFrame": 1547.34,
+  "frame": [
+    1800,
+    1500
+  ],
+  "assets": [
+    {
+      "id": "mochi_skin_front",
+      "kind": "mochi",
+      "view": "front",
+      "file": "mochi/mochi_skin_front.webp",
+      "size": [
+        1134,
+        859
+      ],
+      "bytes": 271418,
+      "blenderObject": "Mochi",
+      "purpose": "떡 막(앞면) 레이어: 과일 레이어 위에 그림. 반투명 우윳빛 + 하이라이트",
+      "cropOriginInFrame": [
+        333,
+        421
+      ]
+    },
+    {
+      "id": "mochi_back_front",
+      "kind": "mochi",
+      "view": "front",
+      "file": "mochi/mochi_back_front.webp",
+      "size": [
+        1134,
+        859
+      ],
+      "bytes": 153562,
+      "blenderObject": "Mochi",
+      "purpose": "떡 뒷벽 레이어: 과일 레이어 아래에 그림. 속이 찬 두께감과 깊이",
+      "cropOriginInFrame": [
+        333,
+        421
+      ]
+    },
+    {
+      "id": "mochi_skin_top",
+      "kind": "mochi",
+      "view": "top",
+      "file": "mochi/mochi_skin_top.webp",
+      "size": [
+        1142,
+        1142
+      ],
+      "bytes": 362914,
+      "blenderObject": "Mochi",
+      "purpose": "떡 막(앞면) 레이어: 과일 레이어 위에 그림. 반투명 우윳빛 + 하이라이트",
+      "cropOriginInFrame": [
+        329,
+        179
+      ]
+    },
+    {
+      "id": "mochi_back_top",
+      "kind": "mochi",
+      "view": "top",
+      "file": "mochi/mochi_back_top.webp",
+      "size": [
+        1142,
+        1142
+      ],
+      "bytes": 198982,
+      "blenderObject": "Mochi",
+      "purpose": "떡 뒷벽 레이어: 과일 레이어 아래에 그림. 속이 찬 두께감과 깊이",
+      "cropOriginInFrame": [
+        329,
+        179
+      ]
+    },
+    {
+      "id": "fruit_blueberry_front",
+      "kind": "fruit",
+      "view": "front",
+      "file": "fruits/fruit_blueberry_front.webp",
+      "size": [
+        397,
+        332
+      ],
+      "bytes": 11894,
+      "blenderObject": "blueberry",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        700,
+        719
+      ]
+    },
+    {
+      "id": "fruit_blueberry_top",
+      "kind": "fruit",
+      "view": "top",
+      "file": "fruits/fruit_blueberry_top.webp",
+      "size": [
+        414,
+        253
+      ],
+      "bytes": 10464,
+      "blenderObject": "blueberry",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        692,
+        623
+      ]
+    },
+    {
+      "id": "fruit_kiwi_front",
+      "kind": "fruit",
+      "view": "front",
+      "file": "fruits/fruit_kiwi_front.webp",
+      "size": [
+        410,
+        351
+      ],
+      "bytes": 15218,
+      "blenderObject": "kiwi",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        695,
+        705
+      ]
+    },
+    {
+      "id": "fruit_kiwi_top",
+      "kind": "fruit",
+      "view": "top",
+      "file": "fruits/fruit_kiwi_top.webp",
+      "size": [
+        416,
+        360
+      ],
+      "bytes": 16404,
+      "blenderObject": "kiwi",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        692,
+        570
+      ]
+    },
+    {
+      "id": "fruit_orange_front",
+      "kind": "fruit",
+      "view": "front",
+      "file": "fruits/fruit_orange_front.webp",
+      "size": [
+        305,
+        280
+      ],
+      "bytes": 7498,
+      "blenderObject": "tangerine",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        747,
+        751
+      ]
+    },
+    {
+      "id": "fruit_orange_top",
+      "kind": "fruit",
+      "view": "top",
+      "file": "fruits/fruit_orange_top.webp",
+      "size": [
+        314,
+        314
+      ],
+      "bytes": 8044,
+      "blenderObject": "tangerine",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        743,
+        593
+      ]
+    },
+    {
+      "id": "fruit_strawberry_front",
+      "kind": "fruit",
+      "view": "front",
+      "file": "fruits/fruit_strawberry_front.webp",
+      "size": [
+        261,
+        366
+      ],
+      "bytes": 11954,
+      "blenderObject": "strawberry",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        768,
+        696
+      ]
+    },
+    {
+      "id": "fruit_strawberry_top",
+      "kind": "fruit",
+      "view": "top",
+      "file": "fruits/fruit_strawberry_top.webp",
+      "size": [
+        267,
+        268
+      ],
+      "bytes": 10654,
+      "blenderObject": "strawberry",
+      "purpose": "과일: 떨어지는 오브젝트(정면)와 떡 내부 조각(정면/위)에 모두 사용",
+      "cropOriginInFrame": [
+        767,
+        616
+      ]
+    },
+    {
+      "id": "trash_can_front",
+      "kind": "trash",
+      "view": "front",
+      "file": "trash/trash_can_front.webp",
+      "size": [
+        274,
+        357
+      ],
+      "bytes": 9008,
+      "blenderObject": "can",
+      "purpose": "쓰레기: 떨어지는 오브젝트(정면)",
+      "cropOriginInFrame": [
+        765,
+        705
+      ]
+    },
+    {
+      "id": "trash_fishbone_front",
+      "kind": "trash",
+      "view": "front",
+      "file": "trash/trash_fishbone_front.webp",
+      "size": [
+        651,
+        237
+      ],
+      "bytes": 27342,
+      "blenderObject": "fishbone",
+      "purpose": "쓰레기: 떨어지는 오브젝트(정면)",
+      "cropOriginInFrame": [
+        576,
+        763
+      ]
+    },
+    {
+      "id": "trash_newspaper_front",
+      "kind": "trash",
+      "view": "front",
+      "file": "trash/trash_newspaper_front.webp",
+      "size": [
+        481,
+        329
+      ],
+      "bytes": 10578,
+      "blenderObject": "newspaper",
+      "purpose": "쓰레기: 떨어지는 오브젝트(정면)",
+      "cropOriginInFrame": [
+        660,
+        714
+      ]
+    },
+    {
+      "id": "trash_sock_front",
+      "kind": "trash",
+      "view": "front",
+      "file": "trash/trash_sock_front.webp",
+      "size": [
+        379,
+        442
+      ],
+      "bytes": 10700,
+      "blenderObject": "sock",
+      "purpose": "쓰레기: 떨어지는 오브젝트(정면)",
+      "cropOriginInFrame": [
+        705,
+        655
+      ]
+    }
+  ]
+}
